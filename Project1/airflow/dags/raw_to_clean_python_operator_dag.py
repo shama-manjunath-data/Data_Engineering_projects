@@ -12,6 +12,7 @@ SPARK_PACKAGES = (
     "com.amazonaws:aws-java-sdk-bundle:1.12.262"
 )
 PROJECT_DIR = "/opt/airflow/project"
+raw_source_url = "s3://bucket/raw/customers.csv"
 
 
 default_args = {

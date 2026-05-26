@@ -4039,3 +4039,115 @@ File Path                                              PID    Runtime      # DAG
 /opt/airflow/dags/raw_to_clean_python_operator_dag.py                           1           0  0.17s           2026-05-26T00:30:20
 /opt/airflow/dags/raw_to_clean_pipeline_dag.py                                  1           0  0.17s           2026-05-26T00:30:20
 ================================================================================
+[2026-05-26T00:31:02.534+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_minio.py                                                 1           0  0.67s           2026-05-26T00:30:55
+/opt/airflow/dags/raw_to_clean_python_operator_dag.py                           1           0  0.18s           2026-05-26T00:30:50
+/opt/airflow/dags/raw_to_clean_pipeline_dag.py                                  1           0  0.17s           2026-05-26T00:30:50
+================================================================================
+[2026-05-26T00:31:32.679+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/raw_to_clean_python_operator_dag.py                           1           0  0.65s           2026-05-26T00:31:21
+/opt/airflow/dags/test_minio.py                                                 1           0  0.46s           2026-05-26T00:31:26
+/opt/airflow/dags/raw_to_clean_pipeline_dag.py                                  1           0  0.43s           2026-05-26T00:31:21
+================================================================================
+[2026-05-26T00:32:03.324+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_minio.py                                                 1           0  0.36s           2026-05-26T00:31:56
+/opt/airflow/dags/raw_to_clean_python_operator_dag.py                           1           0  0.24s           2026-05-26T00:31:52
+/opt/airflow/dags/raw_to_clean_pipeline_dag.py                                  1           0  0.16s           2026-05-26T00:31:52
+================================================================================
+[2026-05-26T00:32:19.519+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-05-26T00:32:19.749+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/dags
+[2026-05-26T00:32:34.118+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/raw_to_clean_python_operator_dag.py                           1           0  0.41s           2026-05-26T00:32:23
+/opt/airflow/dags/raw_to_clean_pipeline_dag.py                                  1           0  0.38s           2026-05-26T00:32:23
+/opt/airflow/dags/test_minio.py                                                 1           0  0.25s           2026-05-26T00:32:27
+================================================================================
+[2026-05-26T00:33:04.699+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_minio.py                                                 1           0  0.24s           2026-05-26T00:32:57
+/opt/airflow/dags/raw_to_clean_python_operator_dag.py                           1           0  0.17s           2026-05-26T00:32:53
+/opt/airflow/dags/raw_to_clean_pipeline_dag.py                                  1           0  0.15s           2026-05-26T00:32:53
+================================================================================
+[2026-05-26T00:33:35.111+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_minio.py                                                 1           0  0.27s           2026-05-26T00:33:28
+/opt/airflow/dags/raw_to_clean_python_operator_dag.py                           1           0  0.17s           2026-05-26T00:33:24
+/opt/airflow/dags/raw_to_clean_pipeline_dag.py                                  1           0  0.14s           2026-05-26T00:33:24
+================================================================================
+[2026-05-26T00:34:05.584+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_minio.py                                                 1           0  0.79s           2026-05-26T00:33:59
+/opt/airflow/dags/raw_to_clean_python_operator_dag.py                           1           0  0.24s           2026-05-26T00:33:54
+/opt/airflow/dags/raw_to_clean_pipeline_dag.py                                  1           0  0.23s           2026-05-26T00:33:54
+================================================================================
+[2026-05-26T00:34:36.330+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/raw_to_clean_python_operator_dag.py                           1           0  0.40s           2026-05-26T00:34:25
+/opt/airflow/dags/raw_to_clean_pipeline_dag.py                                  1           0  0.37s           2026-05-26T00:34:25
+/opt/airflow/dags/test_minio.py                                                 1           0  0.27s           2026-05-26T00:34:30
+================================================================================
+[2026-05-26T00:35:06.842+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_minio.py                                                 1           0  0.24s           2026-05-26T00:35:00
+/opt/airflow/dags/raw_to_clean_python_operator_dag.py                           1           0  0.18s           2026-05-26T00:34:55
+/opt/airflow/dags/raw_to_clean_pipeline_dag.py                                  1           0  0.17s           2026-05-26T00:34:55
+================================================================================
+[2026-05-26T00:35:37.355+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_minio.py                                                 1           0  0.19s           2026-05-26T00:35:31
+/opt/airflow/dags/raw_to_clean_python_operator_dag.py                           1           0  0.19s           2026-05-26T00:35:26
+/opt/airflow/dags/raw_to_clean_pipeline_dag.py                                  1           0  0.17s           2026-05-26T00:35:26
+================================================================================
+[2026-05-26T00:36:07.843+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_minio.py                                                 1           0  0.23s           2026-05-26T00:36:01
+/opt/airflow/dags/raw_to_clean_python_operator_dag.py                           1           0  0.18s           2026-05-26T00:35:56
+/opt/airflow/dags/raw_to_clean_pipeline_dag.py                                  1           0  0.17s           2026-05-26T00:35:56
+================================================================================
