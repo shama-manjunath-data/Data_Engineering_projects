@@ -1,5 +1,5 @@
 apache-airflow-providers-amazon
 boto3
-great_expectations==0.18.21
-pyspark==3.5.1
+great_expectations
+pyspark
 s3fs
