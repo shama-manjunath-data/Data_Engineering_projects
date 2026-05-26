@@ -53,10 +53,18 @@ def parse_args():
         choices=["true", "false"],
         help="Whether the CSV has a header row.",
     )
+    '''
     parser.add_argument(
         "--delimiter",
         default=",",
         help="CSV delimiter.",
+    )
+    '''
+    parser.add_argument(
+    "--format",
+    default="json",
+    choices=["json"],
+    help="Input file format (JSON).",
     )
     parser.add_argument(
         "--write-mode",
@@ -107,13 +115,15 @@ def main():
         f"s3a://{args.bucket}/{args.raw_prefix}/{args.dataset_name}/"
         f"ingestion_date={run_id[:8]}/run_id={run_id}"
     )
-
+    """
     df = (
         spark.read.option("header", args.header)
         .option("sep", args.delimiter)
         .option("inferSchema", "false")
         .csv(local_csv_path)
     )
+    """
+    df = spark.read.json(local_csv_path)
 
     enriched_df = (
         df.withColumn("_ingested_at", current_timestamp())
